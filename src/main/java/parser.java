@@ -15,7 +15,6 @@ public class parser {
         parsePages.parsePages(url, "category");
     }
 }
-
 class parsePages extends parser {
     void parsePages(String url, String parseWhat) throws IOException {
         String pageURL;
